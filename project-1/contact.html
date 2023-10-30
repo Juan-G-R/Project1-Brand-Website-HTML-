@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashiriya Tuner Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="home.html"> <img src="images/logo.png" alt="" width="25%" height="25%" id="imgLogoHead"></a>
+        <ul id="nav">
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="aboutUs.html">About Us</a>
+                <ul>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="photoGallery.html">Photo Gallery</a></li>
+                </ul>
+            </li>
+            <li><a href="meets.html">Meets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <form action=" http://vip.groupehn.com:20003/html/infospost.php" method="post" class="contactForm">
+            <hr>
+            <h1 style="font-weight: bold;">CONTACT</h1>
+            <h3 style="margin-top: -20px; margin-bottom: 25px;">Have you seen anything interesting? Just contact us!
+            </h3>
+            <hr style="  border-top: 3px dotted #bbb;">
+            <p>Last Name</p>
+            <input class="inputField" id="lastname" type="text" name="lastname" placeholder="Last Name" />
+            <br>
+            <p>Name</p>
+            <input class="inputField" id="firstname" type="text" name="firstname" placeholder="Name" />
+            <br>
+            <p>Email</p>
+            <input class="inputField" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+            <br>
+            <br>
+            <select name="country" id="country">
+                <option value="Spain">Spain</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Portugal">Portugal</option>
+            </select>
+            <br>
+            <br>
+            <textarea class="inputField" name="request" id="request" cols="66" rows="10"
+                placeholder="Tell us about what you want to buy" style="resize: vertical;"></textarea>
+            <br>
+            <br>
+            <button type="submit" name="" id="btnSend" value="Send" class="">Send</button>
+        </form>
+    </main>
+
+    <footer>
+
+
+        <table>
+            <tr>
+                <th> <a href="home.html"> <img src="images/logo.png" alt="" width="30%" height="30%"
+                            id="imgLogoFoot"></a>
+                </th>
+                <th>
+                    <p>Copyright 2023</p>
+                </th>
+                <th>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="meets.html">Meets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+
+    </footer>
+
+</body>
+
+</html>
